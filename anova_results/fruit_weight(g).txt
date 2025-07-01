@@ -1,0 +1,165 @@
+ANOVA Results for: fruit_weight(g)
+==================================================
+
+DAH: 0
+--------------------------------------------------
+Summary Statistics:
+Treatment       Mean       Std Dev    N         
+control         43.7987    3.5683     8         
+shaded          37.9262    4.3473     8         
+
+ANOVA Results:
+Groups (treatments): 2
+F-statistic: 8.7220
+p-value: 0.0105
+Normality Check (Shapiro-Wilk): Pass
+Normality p-values: 0.6189, 0.0509
+Equal Variance Check (Levene): Pass
+Levene p-value: 0.8290
+
+==================================================
+
+DAH: 3
+--------------------------------------------------
+Summary Statistics:
+Treatment       Mean       Std Dev    N         
+control         35.7299    10.6094    117       
+shaded          38.9253    9.9403     75        
+
+ANOVA Results:
+Groups (treatments): 2
+F-statistic: 4.3530
+p-value: 0.0383
+Normality Check (Shapiro-Wilk): Fail
+Normality p-values: 0.0445, 0.2079
+Equal Variance Check (Levene): Pass
+Levene p-value: 0.6964
+
+==================================================
+
+DAH: 7
+--------------------------------------------------
+Summary Statistics:
+Treatment       Mean       Std Dev    N         
+control         27.1142    9.7994     240       
+shaded          32.5821    10.7584    184       
+
+ANOVA Results:
+Groups (treatments): 2
+F-statistic: 29.7757
+p-value: 0.0000
+Normality Check (Shapiro-Wilk): Fail
+Normality p-values: 0.0001, 0.0000
+Equal Variance Check (Levene): Pass
+Levene p-value: 0.0559
+
+==================================================
+
+DAH: 10
+--------------------------------------------------
+Summary Statistics:
+Treatment       Mean       Std Dev    N         
+control         18.0072    5.3961     111       
+shaded          21.3707    6.7361     116       
+
+ANOVA Results:
+Groups (treatments): 2
+F-statistic: 17.1454
+p-value: 0.0000
+Normality Check (Shapiro-Wilk): Fail
+Normality p-values: 0.0003, 0.0000
+Equal Variance Check (Levene): Pass
+Levene p-value: 0.1576
+
+==================================================
+
+DAH: 14
+--------------------------------------------------
+Summary Statistics:
+Treatment       Mean       Std Dev    N         
+control         13.6419    1.5253     17        
+shaded          14.5904    2.0303     21        
+
+ANOVA Results:
+Groups (treatments): 2
+F-statistic: 2.5429
+p-value: 0.1195
+Normality Check (Shapiro-Wilk): Pass
+Normality p-values: 0.3414, 0.9764
+Equal Variance Check (Levene): Pass
+Levene p-value: 0.4227
+
+==================================================
+
+DAH: 17
+--------------------------------------------------
+Summary Statistics:
+Treatment       Mean       Std Dev    N         
+control         13.0074    1.5055     21        
+shaded          14.8371    2.4574     12        
+
+ANOVA Results:
+Groups (treatments): 2
+F-statistic: 7.0916
+p-value: 0.0122
+Normality Check (Shapiro-Wilk): Fail
+Normality p-values: 0.8830, 0.0252
+Equal Variance Check (Levene): Pass
+Levene p-value: 0.0692
+
+==================================================
+
+DAH: 21
+--------------------------------------------------
+Summary Statistics:
+Treatment       Mean       Std Dev    N         
+control         12.1630    2.1098     26        
+shaded          13.4643    2.9137     26        
+
+ANOVA Results:
+Groups (treatments): 2
+F-statistic: 3.4026
+p-value: 0.0710
+Normality Check (Shapiro-Wilk): Pass
+Normality p-values: 0.5513, 0.0885
+Equal Variance Check (Levene): Pass
+Levene p-value: 0.4651
+
+==================================================
+
+DAH: 24
+--------------------------------------------------
+Summary Statistics:
+Treatment       Mean       Std Dev    N         
+control         8.4632     2.6809     13        
+shaded          10.9389    1.8436     16        
+
+ANOVA Results:
+Groups (treatments): 2
+F-statistic: 8.6493
+p-value: 0.0066
+Normality Check (Shapiro-Wilk): Pass
+Normality p-values: 0.6872, 0.7575
+Equal Variance Check (Levene): Pass
+Levene p-value: 0.6455
+
+==================================================
+
+DAH: 27
+--------------------------------------------------
+Summary Statistics:
+Treatment       Mean       Std Dev    N         
+control         6.7841     1.2452     10        
+shaded          8.0243     1.9048     12        
+
+ANOVA Results:
+Groups (treatments): 2
+F-statistic: 3.1149
+p-value: 0.0928
+Normality Check (Shapiro-Wilk): Fail
+Normality p-values: 0.0033, 0.6079
+Equal Variance Check (Levene): Pass
+Levene p-value: 0.2640
+
+==================================================
+

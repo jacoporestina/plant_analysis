@@ -1,0 +1,21 @@
+ANOVA Results for: crown no.
+==================================================
+
+DAT: 3
+--------------------------------------------------
+Summary Statistics:
+Treatment       Mean       Std Dev    N         
+control         3.8000     1.2071     15        
+shaded          2.5333     0.8338     15        
+
+ANOVA Results:
+Groups (treatments): 2
+F-statistic: 11.1814
+p-value: 0.0024
+Normality Check (Shapiro-Wilk): Fail
+Normality p-values: 0.0002, 0.0146
+Equal Variance Check (Levene): Pass
+Levene p-value: 0.5882
+
+==================================================
+

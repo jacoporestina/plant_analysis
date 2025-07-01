@@ -1,21 +1,21 @@
-﻿date,DAH,treatment,tunnel,firmness (Kg), acidity (meq 100gr -1),brix (Bx%),Bx/acidity,notes
+﻿date,DAH,treatment,tunnel,firmness (Kg), acidity (meq 100gr -1),brix (Bx%),Bx acidity-1,notes
 20/05/2025,0,control,,0.533,14.73,7.7,0.523,"no repetitions for this day, first harvest. Analysis done +1gg"
 20/05/2025,0,shaded,,0.539,15.03,7.9,0.526,
-23/05/2025,3,control,C1,0.475,10.47,7.40,0.707,all analysis (weight and quality) perfomed +3gg after harvest
-23/05/2025,3,control,C2,0.514,11.73,7.60,0.648,
-23/05/2025,3,control,C3,0.462,13.74,7.60,0.553,
-23/05/2025,3,shaded,S1,0.508,12.36,7.00,0.566,
-23/05/2025,3,shaded,S2,0.48,11.48,7.40,0.645,
-23/05/2025,3,shaded,S3,0.5,13.31,7.30,0.548,
-27/05/2025,7,control,C1,0.434,12.40,7.60,0.613,analysis quality performed +1gg after harvest
-27/05/2025,7,control,C2,0.445,12.09,7.30,0.604,
-27/05/2025,7,control,C3,0.435,12.98,7.10,0.547,
-27/05/2025,7,shaded,S1,0.458,11.67,6.80,0.583,
-27/05/2025,7,shaded,S2,0.459,11.35,7.20,0.634,
-27/05/2025,7,shaded,S3,0.432,12.22,7.30,0.597,
+23/05/2025,3,control,C1,0.475,10.47,7.4,0.707,all analysis (weight and quality) perfomed +3gg after harvest
+23/05/2025,3,control,C2,0.514,11.73,7.6,0.648,
+23/05/2025,3,control,C3,0.462,13.74,7.6,0.553,
+23/05/2025,3,shaded,S1,0.508,12.36,7,0.566,
+23/05/2025,3,shaded,S2,0.48,11.48,7.4,0.645,
+23/05/2025,3,shaded,S3,0.5,13.31,7.3,0.548,
+27/05/2025,7,control,C1,0.434,12.4,7.6,0.613,analysis quality performed +1gg after harvest
+27/05/2025,7,control,C2,0.445,12.09,7.3,0.604,
+27/05/2025,7,control,C3,0.435,12.98,7.1,0.547,
+27/05/2025,7,shaded,S1,0.458,11.67,6.8,0.583,
+27/05/2025,7,shaded,S2,0.459,11.35,7.2,0.634,
+27/05/2025,7,shaded,S3,0.432,12.22,7.3,0.597,
 06/06/2025,17,control,C1,0.315,12.23,7.2,0.589,"analysis on quality perfomed +3gg after harvest, sample of 30 fruits for brix and acidity, instead of 10"
 06/06/2025,17,control,C2,0.307,12.78,6.8,0.532,
-06/06/2025,17,control,C3,0.308,12.9,7.1,0.550,
+06/06/2025,17,control,C3,0.308,12.9,7.1,0.55,
 06/06/2025,17,shaded,S1,0.33,12.19,6,0.492,
 06/06/2025,17,shaded,S2,0.314,12.38,6.6,0.533,
 06/06/2025,17,shaded,S3,0.315,13.2,6.4,0.485,
