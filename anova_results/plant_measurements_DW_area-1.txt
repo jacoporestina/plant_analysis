@@ -1,0 +1,21 @@
+ANOVA Results for: DW area-1
+================================================================================
+
+Date: 17/06/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control             0.0049     0.0005     11
+shaded              0.0046     0.0003     14
+
+ANOVA Table:
+Source                 SS           DF           MS            F      p-value
+Treatment          0.0000            1       0.0000       5.9700       0.0226
+Residuals          0.0000           23       0.0000
+Total              0.0000
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Pass (p = 0.9285)
+  Equal Variance (Bartlett): Pass (p = 0.1776)
+================================================================================
+

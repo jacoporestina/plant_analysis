@@ -1,0 +1,75 @@
+ANOVA Results for: oidio (g)
+================================================================================
+
+Date: 03/06/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control            15.0000        nan      1
+shaded             20.3000    12.6486      7
+
+ANOVA Table:
+Source                 SS           DF           MS            F      p-value
+Treatment         24.5788            1      24.5788       0.1536       0.7086
+Residuals        959.9200            6     159.9867
+Total            984.4988
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Pass (p = 0.0536)
+  Equal Variance (Bartlett): Fail (p = nan)
+================================================================================
+
+Date: 10/06/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control            36.8579    28.0793     19
+shaded             56.5696    36.0914     23
+
+ANOVA Table:
+Source                 SS           DF           MS            F      p-value
+Treatment       4042.7698            1    4042.7698       3.7740       0.0591
+Residuals      42849.0150           40    1071.2254
+Total          46891.7848
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Fail (p = 0.0004)
+  Equal Variance (Bartlett): Pass (p = 0.2764)
+================================================================================
+
+Date: 13/06/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control            32.0000    23.0642      9
+shaded             54.8333    34.9029     15
+
+ANOVA Table:
+Source                 SS           DF           MS            F      p-value
+Treatment       2932.6562            1    2932.6562       3.0275       0.0958
+Residuals      21310.6133           22     968.6642
+Total          24243.2696
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Fail (p = 0.0047)
+  Equal Variance (Bartlett): Pass (p = 0.2192)
+================================================================================
+
+Date: 16/06/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control            41.8667    15.8896      9
+shaded             62.6500    24.2093     12
+
+ANOVA Table:
+Source                 SS           DF           MS            F      p-value
+Treatment       2221.4414            1    2221.4414       4.9850       0.0378
+Residuals       8466.8100           19     445.6216
+Total          10688.2514
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Pass (p = 0.3492)
+  Equal Variance (Bartlett): Pass (p = 0.2282)
+================================================================================
+
