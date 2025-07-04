@@ -77,89 +77,89 @@ Date: 03/06/2025
 --------------------------------------------------------------------------------
 Summary Statistics (Mean ± Std Dev):
 Treatment             Mean    Std Dev      N
-control            13.6419     1.5253     17
-shaded             14.5904     2.0303     21
+control            13.6418     1.5256     17
+shaded             14.5914     2.0302     21
 
 ANOVA Table:
 Source                 SS           DF           MS            F      p-value
-Treatment          8.4527            1       8.4527       2.5429       0.1195
-Residuals        119.6656           36       3.3240
-Total            128.1183
+Treatment          8.4728            1       8.4728       2.5488       0.1191
+Residuals        119.6719           36       3.3242
+Total            128.1447
 
 Assumption Checks:
-  Normality (Shapiro-Wilk): Pass (p = 0.8735)
-  Equal Variance (Bartlett): Pass (p = 0.2424)
+  Normality (Shapiro-Wilk): Pass (p = 0.8726)
+  Equal Variance (Bartlett): Pass (p = 0.2428)
 ================================================================================
 
 Date: 06/06/2025
 --------------------------------------------------------------------------------
 Summary Statistics (Mean ± Std Dev):
 Treatment             Mean    Std Dev      N
-control            13.0074     1.5055     21
-shaded             14.8371     2.4574     12
+control            13.0076     1.5059     21
+shaded             14.8383     2.4574     12
 
 ANOVA Table:
 Source                 SS           DF           MS            F      p-value
-Treatment         25.5659            1      25.5659       7.0916       0.0122
-Residuals        111.7578           31       3.6051
-Total            137.3237
+Treatment         25.5934            1      25.5934       7.0975       0.0121
+Residuals        111.7853           31       3.6060
+Total            137.3787
 
 Assumption Checks:
-  Normality (Shapiro-Wilk): Pass (p = 0.2236)
-  Equal Variance (Bartlett): Pass (p = 0.0621)
+  Normality (Shapiro-Wilk): Pass (p = 0.2252)
+  Equal Variance (Bartlett): Pass (p = 0.0622)
 ================================================================================
 
 Date: 10/06/2025
 --------------------------------------------------------------------------------
 Summary Statistics (Mean ± Std Dev):
 Treatment             Mean    Std Dev      N
-control            12.1630     2.1098     26
-shaded             13.4643     2.9137     26
+control            12.1635     2.1089     26
+shaded             13.4646     2.9142     26
 
 ANOVA Table:
 Source                 SS           DF           MS            F      p-value
-Treatment         22.0158            1      22.0158       3.4026       0.0710
-Residuals        323.5172           50       6.4703
-Total            345.5330
+Treatment         22.0090            1      22.0090       3.4017       0.0711
+Residuals        323.5006           50       6.4700
+Total            345.5097
 
 Assumption Checks:
-  Normality (Shapiro-Wilk): Pass (p = 0.3377)
-  Equal Variance (Bartlett): Pass (p = 0.1131)
+  Normality (Shapiro-Wilk): Pass (p = 0.3364)
+  Equal Variance (Bartlett): Pass (p = 0.1124)
 ================================================================================
 
 Date: 13/06/2025
 --------------------------------------------------------------------------------
 Summary Statistics (Mean ± Std Dev):
 Treatment             Mean    Std Dev      N
-control             8.4632     2.6809     13
-shaded             10.9389     1.8436     16
+control             8.4631     2.6811     13
+shaded             10.9388     1.8424     16
 
 ANOVA Table:
 Source                 SS           DF           MS            F      p-value
-Treatment         43.9614            1      43.9614       8.6493       0.0066
-Residuals        137.2313           27       5.0826
-Total            181.1927
+Treatment         43.9594            1      43.9594       8.6525       0.0066
+Residuals        137.1755           27       5.0806
+Total            181.1349
 
 Assumption Checks:
-  Normality (Shapiro-Wilk): Pass (p = 0.3191)
-  Equal Variance (Bartlett): Pass (p = 0.1786)
+  Normality (Shapiro-Wilk): Pass (p = 0.3223)
+  Equal Variance (Bartlett): Pass (p = 0.1777)
 ================================================================================
 
 Date: 16/06/2025
 --------------------------------------------------------------------------------
 Summary Statistics (Mean ± Std Dev):
 Treatment             Mean    Std Dev      N
-control             6.7841     1.2452     10
-shaded              8.0243     1.9048     12
+control             6.7850     1.2454     10
+shaded              8.0233     1.9049     12
 
 ANOVA Table:
 Source                 SS           DF           MS            F      p-value
-Treatment          8.3895            1       8.3895       3.1149       0.0928
-Residuals         53.8672           20       2.6934
-Total             62.2567
+Treatment          8.3644            1       8.3644       3.1051       0.0933
+Residuals         53.8749           20       2.6937
+Total             62.2393
 
 Assumption Checks:
-  Normality (Shapiro-Wilk): Pass (p = 0.5569)
-  Equal Variance (Bartlett): Pass (p = 0.2045)
+  Normality (Shapiro-Wilk): Pass (p = 0.5612)
+  Equal Variance (Bartlett): Pass (p = 0.2046)
 ================================================================================
 

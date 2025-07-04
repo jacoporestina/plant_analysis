@@ -2,6 +2,8 @@ import pandas as pd
 import numpy as np
 import os
 from scipy.stats import f_oneway, shapiro, bartlett
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 # ========== Configuration ==========
 
@@ -19,6 +21,10 @@ input_configs = {
 
 output_dir = 'anova_results'
 os.makedirs(output_dir, exist_ok=True)
+
+boxplot_dir = os.path.join(output_dir, 'boxplots')
+os.makedirs(boxplot_dir, exist_ok=True)
+
 
 # ========== Functions ==========
 
@@ -128,6 +134,38 @@ def save_results_to_txt(filename, variable, results):
             f.write(f"  Equal Variance (Bartlett): {result['Equal Variance (Bartlett)']} (p = {result['Bartlett p-value']:.4f})\n")
             f.write("=" * 80 + "\n\n")
 
+
+def create_boxplot(df, variable, file_prefix):
+    # Filter to valid dates where at least 1 non-NaN exists
+    valid_dates = df.groupby('date')[variable].apply(lambda x: not x.isna().all())
+    valid_dates = valid_dates[valid_dates].index.tolist()
+    filtered_df = df[df['date'].isin(valid_dates)]
+
+    if len(valid_dates) == 0:
+        print(f"  Skipping boxplot for {variable}: No valid data (all NaN).")
+        return
+
+    plt.figure(figsize=(12, 6))
+    sns.boxplot(
+        x="date",
+        y=variable,
+        hue="treatment",
+        data=filtered_df,
+        palette="viridis"
+    )
+    plt.title(f'Boxplot of {variable} by Treatment')
+    plt.xlabel("Date")
+    plt.ylabel(variable)
+    plt.legend(title="Treatment", bbox_to_anchor=(1.05, 1), loc='upper left')
+    plt.tight_layout()
+
+    safe_var = variable.replace(' ', '_').replace('/', '_')
+    plot_path = os.path.join(boxplot_dir, f"{file_prefix}_{safe_var}.png")
+    plt.savefig(plot_path)
+    plt.close()
+    print(f"  Saved boxplot: {plot_path}")
+
+
 # ========== Main Loop ==========
 
 for file_path, variable_list in input_configs.items():
@@ -152,3 +190,7 @@ for file_path, variable_list in input_configs.items():
                 f"{os.path.basename(file_path).replace('.csv','')}_{safe_var}.txt"
             )
             save_results_to_txt(filename, variable, variable_results)
+
+            # Generate boxplot
+            base_name = os.path.basename(file_path).replace('.csv', '')
+            create_boxplot(df, variable, base_name)
