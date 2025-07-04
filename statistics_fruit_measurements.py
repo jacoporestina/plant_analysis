@@ -6,7 +6,7 @@ import os
 import numpy as np
 
 # Load the dataset
-file_path = 'data/plant_measurements.csv'
+file_path = 'data/fruit_measurements.csv'
 
 df = pd.read_csv(file_path)
 
@@ -23,21 +23,16 @@ print(df['treatment'].unique())
 os.makedirs('anova_results', exist_ok=True)
 
 # Specify the variables to analyze
-variables = [
-       'crown no.', 'vampiri no.', 'leaf no.', 'inflorescence no.', 'flower no.',
-       'fruit no.', 'petiole length mean (cm)', 'plant_FW (g)', 'plant_DW (g)',
-       'shoots_DW (g)', 'leaf_DW (g)', 'leaf_area (cm2)',
-       'DW area-1',
-       ]
+variables = ['fruit_weight(g)', 'oidio (g)']
 
 
-def run_anova(df, variable, DAT):
+def run_anova(df, variable, DAH):
     """Run ANOVA with assumption checks and return formatted results."""
-    DAT_df = df[df['DAT'] == DAT]
+    DAH_df = df[df['DAH'] == DAH]
     groups_data = []
     group_stats = []
 
-    for name, group in DAT_df.groupby('treatment'):
+    for name, group in DAH_df.groupby('treatment'):
         values = group[variable].dropna().values
         groups_data.append(values)
         if len(values) > 0:
@@ -62,7 +57,7 @@ def run_anova(df, variable, DAT):
     f_stat, p_value = f_oneway(*groups_data)
 
     anova_result = {
-        'DAT': DAT,
+        'DAH': DAH,
         'Variable': variable,
         'Groups': len(groups_data),
         'F': f"{f_stat:.4f}",
@@ -86,7 +81,7 @@ def save_as_txt(variable, results):
             if result is None:
                 continue
 
-            f.write(f"DAT: {result['DAT']}\n")
+            f.write(f"DAH: {result['DAH']}\n")
             f.write("-"*50 + "\n")
 
             # Write summary statistics
@@ -112,7 +107,7 @@ def save_as_txt(variable, results):
 
 for variable in variables:
     variable_results = []
-    valid_dates = df[df[variable].notna()]['DAT'].unique()
+    valid_dates = df[df[variable].notna()]['DAH'].unique()
 
     for date in valid_dates:
         anova_result, group_stats = run_anova(df, variable, date)
@@ -128,9 +123,9 @@ for variable in variables:
 # Plot to check distribution of a variable
 for variable in variables:
     # Filter the DataFrame to exclude dates where ALL values are NaN for this variable
-    valid_dates = df.groupby('DAT')[variable].apply(lambda x: not x.isna().all())
+    valid_dates = df.groupby('DAH')[variable].apply(lambda x: not x.isna().all())
     valid_dates = valid_dates[valid_dates].index.tolist()  # Get dates with at least 1 non-NaN
-    filtered_df = df[df['DAT'].isin(valid_dates)]
+    filtered_df = df[df['DAH'].isin(valid_dates)]
 
     if len(valid_dates) == 0:
         print(f"Skipping {variable}: No valid data (all NaN).")
@@ -138,7 +133,7 @@ for variable in variables:
 
     plt.figure(figsize=(12, 6))
     sns.boxplot(
-        x="DAT",
+        x="DAH",
         y=variable,
         hue="treatment",
         data=filtered_df,
@@ -148,4 +143,3 @@ for variable in variables:
     plt.tight_layout()
     plt.savefig(f'boxplots/boxplot_{variable}.png')
     plt.close()
-

@@ -1,0 +1,57 @@
+ANOVA Results for: Bx acidity-1
+================================================================================
+
+Date: 23/05/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control             0.6360     0.0777      3
+shaded              0.5863     0.0516      3
+
+ANOVA Table:
+Source                 SS           DF           MS            F      p-value
+Treatment          0.0037            1       0.0037       0.8507       0.4086
+Residuals          0.0174            4       0.0043
+Total              0.0211
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Pass (p = 0.2468)
+  Equal Variance (Bartlett): Pass (p = 0.6095)
+================================================================================
+
+Date: 27/05/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control             0.5880     0.0358      3
+shaded              0.6047     0.0264      3
+
+ANOVA Table:
+Source                 SS           DF           MS            F      p-value
+Treatment          0.0004            1       0.0004       0.4219       0.5514
+Residuals          0.0040            4       0.0010
+Total              0.0044
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Pass (p = 0.8699)
+  Equal Variance (Bartlett): Pass (p = 0.7007)
+================================================================================
+
+Date: 06/06/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control             0.5570     0.0291      3
+shaded              0.5033     0.0259      3
+
+ANOVA Table:
+Source                 SS           DF           MS            F      p-value
+Treatment          0.0043            1       0.0043       5.6794       0.0757
+Residuals          0.0030            4       0.0008
+Total              0.0074
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Pass (p = 0.6675)
+  Equal Variance (Bartlett): Pass (p = 0.8828)
+================================================================================
+

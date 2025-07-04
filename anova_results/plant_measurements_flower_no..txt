@@ -1,0 +1,57 @@
+ANOVA Results for: flower no.
+================================================================================
+
+Date: 23/04/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control             9.5333     3.8705     15
+shaded              7.0667     2.9391     15
+
+ANOVA Table:
+Source                 SS           DF           MS            F      p-value
+Treatment         45.6333            1      45.6333       3.8641       0.0593
+Residuals        330.6667           28      11.8095
+Total            376.3000
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Fail (p = 0.0406)
+  Equal Variance (Bartlett): Pass (p = 0.3145)
+================================================================================
+
+Date: 08/05/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control             6.8667     4.1208     15
+shaded              7.9333     5.0209     15
+
+ANOVA Table:
+Source                 SS           DF           MS            F      p-value
+Treatment          8.5333            1       8.5333       0.4045       0.5299
+Residuals        590.6667           28      21.0952
+Total            599.2000
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Pass (p = 0.1131)
+  Equal Variance (Bartlett): Pass (p = 0.4691)
+================================================================================
+
+Date: 20/05/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control             1.2000     1.6987     15
+shaded              2.1333     2.6150     15
+
+ANOVA Table:
+Source                 SS           DF           MS            F      p-value
+Treatment          6.5333            1       6.5333       1.3438       0.2562
+Residuals        136.1333           28       4.8619
+Total            142.6667
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Fail (p = 0.0000)
+  Equal Variance (Bartlett): Pass (p = 0.1182)
+================================================================================
+
