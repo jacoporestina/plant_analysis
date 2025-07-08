@@ -1,21 +1,21 @@
-ANOVA Results for: DW area-1
+ANOVA Results for: plant_yield (g)
 ================================================================================
 
-Date: 17/06/2025
+Date: 16/06/2025
 --------------------------------------------------------------------------------
 Summary Statistics (Mean ± Std Dev):
 Treatment             Mean    Std Dev      N
-control             0.0493     0.0046     11
-shaded              0.0456     0.0031     14
+control           355.0133    22.0933      3
+shaded            350.6033    14.8694      3
 
 ANOVA Table:
 Source                 SS           DF           MS            F      p-value
-Treatment          0.0001            1       0.0001       5.9700       0.0226
-Residuals          0.0003           23       0.0000
-Total              0.0004
+Treatment         29.1722            1      29.1722       0.0823       0.7885
+Residuals       1418.4253            4     354.6063
+Total           1447.5975
 
 Assumption Checks:
-  Normality (Shapiro-Wilk): Pass (p = 0.9285)
-  Equal Variance (Bartlett): Pass (p = 0.1776)
+  Normality (Shapiro-Wilk): Pass (p = 0.1826)
+  Equal Variance (Bartlett): Pass (p = 0.6209)
 ================================================================================
 

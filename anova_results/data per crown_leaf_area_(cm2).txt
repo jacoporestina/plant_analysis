@@ -1,21 +1,21 @@
-ANOVA Results for: DW area-1
+ANOVA Results for: leaf_area (cm2)
 ================================================================================
 
 Date: 17/06/2025
 --------------------------------------------------------------------------------
 Summary Statistics (Mean ± Std Dev):
 Treatment             Mean    Std Dev      N
-control             0.0493     0.0046     11
-shaded              0.0456     0.0031     14
+control          1471.3018   372.3814     11
+shaded           1618.1386   673.5814     14
 
 ANOVA Table:
 Source                 SS           DF           MS            F      p-value
-Treatment          0.0001            1       0.0001       5.9700       0.0226
-Residuals          0.0003           23       0.0000
-Total              0.0004
+Treatment     132815.9578            1  132815.9578       0.4193       0.5237
+Residuals    7284933.2595           23  316736.2287
+Total        7417749.2173
 
 Assumption Checks:
-  Normality (Shapiro-Wilk): Pass (p = 0.9285)
-  Equal Variance (Bartlett): Pass (p = 0.1776)
+  Normality (Shapiro-Wilk): Pass (p = 0.0642)
+  Equal Variance (Bartlett): Pass (p = 0.0638)
 ================================================================================
 

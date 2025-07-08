@@ -55,7 +55,7 @@ Assumption Checks:
   Equal Variance (Bartlett): Pass (p = 0.2956)
 ================================================================================
 
-Date: 09/05/2025
+Date: 09/06/2025
 --------------------------------------------------------------------------------
 Summary Statistics (Mean ± Std Dev):
 Treatment             Mean    Std Dev      N

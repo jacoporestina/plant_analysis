@@ -1,0 +1,93 @@
+ANOVA Results for: fruit no.
+================================================================================
+
+Date: 23/04/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control             0.0000     0.0000     15
+shaded              0.0000     0.0000     15
+
+ANOVA Table:
+Source                 SS           DF           MS            F      p-value
+Treatment          0.0000            1       0.0000          nan          nan
+Residuals          0.0000           28       0.0000
+Total              0.0000
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Pass (p = 1.0000)
+  Equal Variance (Bartlett): Fail (p = nan)
+================================================================================
+
+Date: 08/05/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control             8.4000     1.9803     15
+shaded              9.2933     2.9473     15
+
+ANOVA Table:
+Source                 SS           DF           MS            F      p-value
+Treatment          5.9853            1       5.9853       0.9495       0.3382
+Residuals        176.5093           28       6.3039
+Total            182.4947
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Pass (p = 0.6417)
+  Equal Variance (Bartlett): Pass (p = 0.1489)
+================================================================================
+
+Date: 20/05/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control            11.1067     3.5405     15
+shaded             14.5467     6.2450     15
+
+ANOVA Table:
+Source                 SS           DF           MS            F      p-value
+Treatment         88.7520            1      88.7520       3.4444       0.0740
+Residuals        721.4867           28      25.7674
+Total            810.2387
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Fail (p = 0.0048)
+  Equal Variance (Bartlett): Fail (p = 0.0419)
+================================================================================
+
+Date: 04/06/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control             7.0800     3.8603     15
+shaded             11.9400     5.5623     15
+
+ANOVA Table:
+Source                 SS           DF           MS            F      p-value
+Treatment        177.1470            1     177.1470       7.7287       0.0096
+Residuals        641.7800           28      22.9207
+Total            818.9270
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Fail (p = 0.0416)
+  Equal Variance (Bartlett): Pass (p = 0.1840)
+================================================================================
+
+Date: 17/06/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control             1.5067     1.1392     15
+shaded              2.3467     1.1716     15
+
+ANOVA Table:
+Source                 SS           DF           MS            F      p-value
+Treatment          5.2920            1       5.2920       3.9633       0.0563
+Residuals         37.3867           28       1.3352
+Total             42.6787
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Pass (p = 0.0830)
+  Equal Variance (Bartlett): Pass (p = 0.9179)
+================================================================================
+
