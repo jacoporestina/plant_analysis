@@ -18,7 +18,7 @@ input_configs = {
     'data/firmness.csv': ['firmness (kg)'],
     'data/plant_yield.csv': ['yield_plant (g)'],
     'data/data per crown.csv': ['leaf no.','inflorescence no.',
-        'fruit no.', 'plant_FW (g)', 'shoots_DW (g)', 'leaf_DW (g)', 'leaf_area (cm2)', 'DW area-1'],
+        'fruit no.', 'plant_FW (g)', 'plant_DW (g)', 'shoots_DW (g)', 'leaf_DW (g)', 'leaf_area (cm2)', 'DW area-1'],
     'data/cumulative_yield.csv': ['plant_yield (g)']
 }
 

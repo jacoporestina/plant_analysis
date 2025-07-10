@@ -1,23 +1,4 @@
 ANOVA Results for: fruit_weight(g)
-================================================================================
-
-Date: 20/05/2025
---------------------------------------------------------------------------------
-Summary Statistics (Mean ± Std Dev):
-Treatment             Mean    Std Dev      N
-control            43.7987     3.5683      8
-shaded             37.9262     4.3473      8
-
-ANOVA Table:
-Source                 SS           DF           MS            F      p-value
-Treatment        137.9450            1     137.9450       8.7220       0.0105
-Residuals        221.4209           14      15.8158
-Total            359.3659
-
-Assumption Checks:
-  Normality (Shapiro-Wilk): Pass (p = 0.2999)
-  Equal Variance (Bartlett): Pass (p = 0.6149)
-================================================================================
 
 Date: 23/05/2025
 --------------------------------------------------------------------------------
