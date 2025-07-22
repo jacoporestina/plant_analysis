@@ -58,4 +58,3 @@ combined.paste(img2, (img1.width, 0))
 
 # Save the result
 combined.save("line_plots/combined_horizontal.png")
-

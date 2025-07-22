@@ -76,11 +76,11 @@ for file_path, variables in input_configs.items():
             elinewidth=1, linewidth=1.5, markersize=6
 )
 
-        plt.xlabel('DAT')
-        plt.ylabel(label)
-        plt.legend()
-        plt.xticks(grouped['DAT'])
-        plt.tight_layout()
+        plt.xlabel('DAT', fontsize=14)
+        plt.ylabel(label, fontsize=14)
+        #plt.legend(fontsize=12)
+        plt.xticks(grouped['DAT'], fontsize=12)
+        plt.yticks(fontsize=12)
 
         filename = f"{variable.replace(' ', '_').replace('/', '_')}_lineplot.png"
         plt.savefig(os.path.join(plot_output_dir, filename))
