@@ -1,0 +1,19 @@
+T-Test Results for: leaf_DW (g)
+================================================================================
+
+Date: 17/06/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control             6.9680     1.7964     15
+shaded              7.8413     3.4404     15
+
+T-Test Result:
+t-stat          -0.8715
+p-value          0.3909
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Pass (p = 0.1061)
+  Equal Variance (Bartlett): Fail (p = 0.0208)
+================================================================================
+

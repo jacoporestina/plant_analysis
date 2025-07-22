@@ -1,0 +1,51 @@
+T-Test Results for: Bx acidity-1
+================================================================================
+
+Date: 23/05/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control             0.6360     0.0777      3
+shaded              0.5863     0.0516      3
+
+T-Test Result:
+t-stat           0.9223
+p-value          0.4086
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Pass (p = 0.2468)
+  Equal Variance (Bartlett): Pass (p = 0.6095)
+================================================================================
+
+Date: 27/05/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control             0.5880     0.0358      3
+shaded              0.6047     0.0264      3
+
+T-Test Result:
+t-stat          -0.6495
+p-value          0.5514
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Pass (p = 0.8699)
+  Equal Variance (Bartlett): Pass (p = 0.7007)
+================================================================================
+
+Date: 06/06/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control             0.5570     0.0291      3
+shaded              0.5033     0.0259      3
+
+T-Test Result:
+t-stat           2.3832
+p-value          0.0757
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Pass (p = 0.6675)
+  Equal Variance (Bartlett): Pass (p = 0.8828)
+================================================================================
+

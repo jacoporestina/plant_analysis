@@ -1,0 +1,83 @@
+T-Test Results for: leaf no.
+================================================================================
+
+Date: 27/03/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control            13.7333     3.4531     15
+shaded             10.8667     3.4614     15
+
+T-Test Result:
+t-stat           2.2708
+p-value          0.0310
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Pass (p = 0.5311)
+  Equal Variance (Bartlett): Pass (p = 0.9930)
+================================================================================
+
+Date: 10/04/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control            20.0667     3.8446     15
+shaded             15.0667     5.7005     15
+
+T-Test Result:
+t-stat           2.8164
+p-value          0.0088
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Pass (p = 0.8006)
+  Equal Variance (Bartlett): Pass (p = 0.1527)
+================================================================================
+
+Date: 23/04/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control            25.9333     4.2673     15
+shaded             22.5333     6.5777     15
+
+T-Test Result:
+t-stat           1.6795
+p-value          0.1042
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Pass (p = 0.4051)
+  Equal Variance (Bartlett): Pass (p = 0.1171)
+================================================================================
+
+Date: 08/05/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control            30.4000     7.5574     15
+shaded             26.0667    10.6802     15
+
+T-Test Result:
+t-stat           1.2827
+p-value          0.2101
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Pass (p = 0.0967)
+  Equal Variance (Bartlett): Pass (p = 0.2079)
+================================================================================
+
+Date: 20/05/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control            35.7333     7.4687     15
+shaded             28.7333    12.6291     15
+
+T-Test Result:
+t-stat           1.8478
+p-value          0.0752
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Pass (p = 0.2702)
+  Equal Variance (Bartlett): Pass (p = 0.0588)
+================================================================================
+

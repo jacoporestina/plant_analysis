@@ -1,0 +1,19 @@
+T-Test Results for: DW area-1
+================================================================================
+
+Date: 17/06/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control             0.0049     0.0005     11
+shaded              0.0046     0.0003     14
+
+T-Test Result:
+t-stat           2.4434
+p-value          0.0226
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Pass (p = 0.9285)
+  Equal Variance (Bartlett): Pass (p = 0.1776)
+================================================================================
+

@@ -1,0 +1,51 @@
+T-Test Results for: oidio (g)
+================================================================================
+
+Date: 10/06/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control            36.8579    28.0793     19
+shaded             56.5696    36.0914     23
+
+T-Test Result:
+t-stat          -1.9427
+p-value          0.0591
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Fail (p = 0.0004)
+  Equal Variance (Bartlett): Pass (p = 0.2764)
+================================================================================
+
+Date: 13/06/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control            32.0000    23.0642      9
+shaded             54.8333    34.9029     15
+
+T-Test Result:
+t-stat          -1.7400
+p-value          0.0958
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Fail (p = 0.0047)
+  Equal Variance (Bartlett): Pass (p = 0.2192)
+================================================================================
+
+Date: 16/06/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control            41.8667    15.8896      9
+shaded             62.6500    24.2093     12
+
+T-Test Result:
+t-stat          -2.2327
+p-value          0.0378
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Pass (p = 0.3492)
+  Equal Variance (Bartlett): Pass (p = 0.2282)
+================================================================================
+

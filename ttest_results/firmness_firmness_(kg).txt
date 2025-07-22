@@ -1,0 +1,67 @@
+T-Test Results for: firmness (kg)
+================================================================================
+
+Date: 21/05/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control             0.5329     0.0777     47
+shaded              0.5392     0.0754     55
+
+T-Test Result:
+t-stat          -0.4174
+p-value          0.6773
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Fail (p = 0.0045)
+  Equal Variance (Bartlett): Pass (p = 0.8358)
+================================================================================
+
+Date: 26/05/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control             0.4839     0.0720    112
+shaded              0.4965     0.0458     70
+
+T-Test Result:
+t-stat          -1.3010
+p-value          0.1949
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Fail (p = 0.0000)
+  Equal Variance (Bartlett): Fail (p = 0.0001)
+================================================================================
+
+Date: 28/05/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control             0.4381     0.0506    150
+shaded              0.4495     0.0465    150
+
+T-Test Result:
+t-stat          -2.0221
+p-value          0.0441
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Pass (p = 0.1062)
+  Equal Variance (Bartlett): Pass (p = 0.2956)
+================================================================================
+
+Date: 09/06/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control             0.3098     0.0502    150
+shaded              0.3195     0.0689    137
+
+T-Test Result:
+t-stat          -1.3650
+p-value          0.1733
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Fail (p = 0.0000)
+  Equal Variance (Bartlett): Fail (p = 0.0002)
+================================================================================
+

@@ -1,0 +1,19 @@
+T-Test Results for: plant_FW (g)
+================================================================================
+
+Date: 17/06/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control           317.1200    72.8043     15
+shaded            224.1600    61.5952     15
+
+T-Test Result:
+t-stat           3.7753
+p-value          0.0008
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Pass (p = 0.1052)
+  Equal Variance (Bartlett): Pass (p = 0.5397)
+================================================================================
+

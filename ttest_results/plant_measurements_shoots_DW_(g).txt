@@ -1,0 +1,19 @@
+T-Test Results for: shoots_DW (g)
+================================================================================
+
+Date: 17/06/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control            36.2267    10.0919     15
+shaded             23.6267     7.4789     15
+
+T-Test Result:
+t-stat           3.8850
+p-value          0.0006
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Pass (p = 0.0787)
+  Equal Variance (Bartlett): Pass (p = 0.2741)
+================================================================================
+

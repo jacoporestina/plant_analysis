@@ -1,0 +1,83 @@
+T-Test Results for: inflorescence no.
+================================================================================
+
+Date: 23/04/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control             5.7333     1.7099     15
+shaded              4.4000     2.4727     15
+
+T-Test Result:
+t-stat           1.7177
+p-value          0.0969
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Pass (p = 0.0698)
+  Equal Variance (Bartlett): Pass (p = 0.1798)
+================================================================================
+
+Date: 08/05/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control             8.0667     2.7637     15
+shaded              7.5333     2.9244     15
+
+T-Test Result:
+t-stat           0.5134
+p-value          0.6117
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Pass (p = 0.2661)
+  Equal Variance (Bartlett): Pass (p = 0.8354)
+================================================================================
+
+Date: 20/05/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control             8.0667     2.5765     15
+shaded              7.8000     3.8582     15
+
+T-Test Result:
+t-stat           0.2226
+p-value          0.8255
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Pass (p = 0.0929)
+  Equal Variance (Bartlett): Pass (p = 0.1429)
+================================================================================
+
+Date: 04/06/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control             8.6429     3.1527     14
+shaded              7.8667     4.0332     15
+
+T-Test Result:
+t-stat           0.5745
+p-value          0.5704
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Pass (p = 0.0828)
+  Equal Variance (Bartlett): Pass (p = 0.3783)
+================================================================================
+
+Date: 17/06/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control             9.0000     2.6726     15
+shaded              7.6667     3.9400     15
+
+T-Test Result:
+t-stat           1.0847
+p-value          0.2873
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Pass (p = 0.0634)
+  Equal Variance (Bartlett): Pass (p = 0.1586)
+================================================================================
+

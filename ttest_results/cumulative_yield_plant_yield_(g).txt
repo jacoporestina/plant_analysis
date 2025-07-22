@@ -1,0 +1,19 @@
+T-Test Results for: plant_yield (g)
+================================================================================
+
+Date: 16/06/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control           355.0133    22.0933      3
+shaded            350.6033    14.8694      3
+
+T-Test Result:
+t-stat           0.2868
+p-value          0.7885
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Pass (p = 0.1826)
+  Equal Variance (Bartlett): Pass (p = 0.6209)
+================================================================================
+

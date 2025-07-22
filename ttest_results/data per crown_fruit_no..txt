@@ -1,0 +1,83 @@
+T-Test Results for: fruit no.
+================================================================================
+
+Date: 23/04/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control             0.0000     0.0000     15
+shaded              0.0000     0.0000     15
+
+T-Test Result:
+t-stat              nan
+p-value             nan
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Pass (p = 1.0000)
+  Equal Variance (Bartlett): Fail (p = nan)
+================================================================================
+
+Date: 08/05/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control             8.4000     1.9803     15
+shaded              9.2933     2.9473     15
+
+T-Test Result:
+t-stat          -0.9744
+p-value          0.3382
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Pass (p = 0.6417)
+  Equal Variance (Bartlett): Pass (p = 0.1489)
+================================================================================
+
+Date: 20/05/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control            11.1067     3.5405     15
+shaded             14.5467     6.2450     15
+
+T-Test Result:
+t-stat          -1.8559
+p-value          0.0740
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Fail (p = 0.0048)
+  Equal Variance (Bartlett): Fail (p = 0.0419)
+================================================================================
+
+Date: 04/06/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control             7.0800     3.8603     15
+shaded             11.9400     5.5623     15
+
+T-Test Result:
+t-stat          -2.7801
+p-value          0.0096
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Fail (p = 0.0416)
+  Equal Variance (Bartlett): Pass (p = 0.1840)
+================================================================================
+
+Date: 17/06/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control             1.5067     1.1392     15
+shaded              2.3467     1.1716     15
+
+T-Test Result:
+t-stat          -1.9908
+p-value          0.0563
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Pass (p = 0.0830)
+  Equal Variance (Bartlett): Pass (p = 0.9179)
+================================================================================
+
