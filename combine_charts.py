@@ -1,5 +1,5 @@
 from PIL import Image
-
+'''
 # Paths to your four images
 paths = [
     "line_plots/leaf_no._lineplot.png",
@@ -32,7 +32,7 @@ combined.paste(images[3], (max_width, max_height))
 
 # Save result
 combined.save("line_plots/combined_2x2.png")
-
+'''
 
 
 from PIL import Image

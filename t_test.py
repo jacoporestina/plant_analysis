@@ -11,15 +11,18 @@ input_configs = {
     'data/plant_measurements.csv': [
         'crown no.', 'leaf no.', 'inflorescence no.', 'flower no.',
         'fruit no.', 'petiole length mean (cm)', 'plant_FW (g)', 'plant_DW (g)',
-        'shoots_DW (g)', 'leaf_DW (g)', 'leaf_area (cm2)', 'DW area-1',
+        'shoots_DW (g)', 'leaf_DW (g)', 'leaf_area (m2)', 'SLA (m2 g-1)',
     ],
     'data/fruit_quality.csv': ['acidity (meq 100gr -1)', 'brix (Bx%)', 'Bx acidity-1'],
     'data/fruit_measurements.csv': ['fruit_weight(g)', 'oidio (g)'],
     'data/firmness.csv': ['firmness (kg)'],
     'data/plant_yield.csv': ['yield_plant (g)'],
-    'data/data per crown.csv': ['leaf no.','inflorescence no.',
-        'fruit no.', 'plant_FW (g)', 'plant_DW (g)', 'shoots_DW (g)', 'leaf_DW (g)', 'leaf_area (cm2)', 'DW area-1'],
-    'data/cumulative_yield.csv': ['plant_yield (g)']
+    'data/data per crown.csv': [
+        'leaf no.','inflorescence no.', 'fruit no.', 'plant_FW (g)',
+        'plant_DW (g)', 'shoots_DW (g)', 'leaf_DW (g)', 'leaf_area (m2)', 'SLA (m2 g-1)'
+    ],
+    'data/cumulative_yield.csv': ['plant_yield (g)'],
+    'data/shelf_life.csv' : ['weight_diff']
 }
 
 output_dir = 'ttest_results'

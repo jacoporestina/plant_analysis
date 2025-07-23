@@ -1,19 +1,19 @@
-T-Test Results for: DW area-1
+T-Test Results for: SLA (m2 g-1)
 ================================================================================
 
 Date: 17/06/2025
 --------------------------------------------------------------------------------
 Summary Statistics (Mean ± Std Dev):
 Treatment             Mean    Std Dev      N
-control             0.0049     0.0005     11
-shaded              0.0046     0.0003     14
+control             0.0204     0.0021     11
+shaded              0.0220     0.0015     14
 
 T-Test Result:
-t-stat           2.4512
-p-value          0.0223
+t-stat          -2.2484
+p-value          0.0344
 
 Assumption Checks:
-  Normality (Shapiro-Wilk): Pass (p = 0.9260)
-  Equal Variance (Bartlett): Pass (p = 0.1748)
+  Normality (Shapiro-Wilk): Pass (p = 0.8792)
+  Equal Variance (Bartlett): Pass (p = 0.2779)
 ================================================================================
 

@@ -1,19 +1,19 @@
-T-Test Results for: leaf_area (cm2)
+T-Test Results for: SLA (m2 g-1)
 ================================================================================
 
 Date: 17/06/2025
 --------------------------------------------------------------------------------
 Summary Statistics (Mean ± Std Dev):
 Treatment             Mean    Std Dev      N
-control          5016.3925   911.8537     11
-shaded           3899.2527  1132.8308     14
+control             0.0204     0.0021     11
+shaded              0.0220     0.0015     14
 
 T-Test Result:
-t-stat           2.6596
-p-value          0.0140
+t-stat          -2.2475
+p-value          0.0345
 
 Assumption Checks:
-  Normality (Shapiro-Wilk): Pass (p = 0.2807)
-  Equal Variance (Bartlett): Pass (p = 0.4811)
+  Normality (Shapiro-Wilk): Pass (p = 0.8824)
+  Equal Variance (Bartlett): Pass (p = 0.2771)
 ================================================================================
 

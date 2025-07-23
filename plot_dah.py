@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 # === CONFIGURATION ===
 input_configs = {
-    'data/fruit_quality.csv': ['acidity (meq 100gr -1)', 'brix (Bx%)', 'Bx acidity-1'],
+    'data/fruit_quality.csv': ['acidity (meq 100gr -1)', 'brix (Bx°)', 'Bx acidity-1'],
     'data/fruit_measurements.csv': ['fruit_weight(g)', 'oidio (g)'],
     'data/firmness.csv': ['firmness (kg)'],
     'data/plant_yield.csv': ['yield_plant (g)']
@@ -12,11 +12,11 @@ input_configs = {
 
 # Optional: variable label mapping for prettier y-axis labels
 variable_labels = {
-    'fruit_weight(g)': 'Fruit Weight (g)',
-    'yield_plant (g)': 'Yield per Plant (g)',
-    'acidity (meq 100gr -1)': 'Acidity (meq/100g)',
-    'brix (Bx%)': 'Brix (%)',
-    'Bx acidity-1': 'Brix/Acidity Ratio',
+    'fruit_weight(g)': 'Average fruit weight (g)',
+    'yield_plant (g)': 'g plant⁻¹',
+    'acidity (meq 100gr⁻¹)': 'Acidity (meq 100g⁻¹)',
+    'brix (Bx%)': 'Brix (Bx°)',
+    'Bx acidity-1': 'Brix/Acidity',
     'oidio (g)': 'Oidio (g)',
     'firmness (kg)': 'Firmness (kg)',
 }

@@ -1,0 +1,35 @@
+T-Test Results for: weight_diff
+================================================================================
+
+Date: 03/06/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control             5.0529     0.4989     17
+shaded              5.3810     0.5836     21
+
+T-Test Result:
+t-stat          -1.8360
+p-value          0.0746
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Fail (p = 0.0204)
+  Equal Variance (Bartlett): Pass (p = 0.5175)
+================================================================================
+
+Date: 10/06/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control             8.3909     1.4544     22
+shaded              8.0417     0.6248     24
+
+T-Test Result:
+t-stat           1.0741
+p-value          0.2886
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Fail (p = 0.0008)
+  Equal Variance (Bartlett): Fail (p = 0.0002)
+================================================================================
+

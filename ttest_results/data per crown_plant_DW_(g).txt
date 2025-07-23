@@ -5,15 +5,15 @@ Date: 17/06/2025
 --------------------------------------------------------------------------------
 Summary Statistics (Mean ± Std Dev):
 Treatment             Mean    Std Dev      N
-control            16.8400     4.5262     15
-shaded             18.3300     7.9194     15
+control            16.8400     4.5269     15
+shaded             18.3287     7.9207     15
 
 T-Test Result:
-t-stat          -0.6326
-p-value          0.5321
+t-stat          -0.6320
+p-value          0.5325
 
 Assumption Checks:
-  Normality (Shapiro-Wilk): Pass (p = 0.3076)
+  Normality (Shapiro-Wilk): Pass (p = 0.3083)
   Equal Variance (Bartlett): Fail (p = 0.0448)
 ================================================================================
 
