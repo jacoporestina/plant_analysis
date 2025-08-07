@@ -10,11 +10,11 @@ input_configs = {'data/plant_measurements.csv' :[
 
 # Optional: variable label mapping for prettier y-axis labels
 variable_labels = {
-    'inflorescence no.': 'Inflorescence Number',
-    'flower no.': 'Flower Number',
-    'fruit no.': 'Fruit Number',
-    'leaf no.': 'Leaf Number',
-    'petiole length mean (cm)': 'Petiole Length (cm)',
+    'inflorescence no.': 'inflorescence number (plant⁻¹)',
+    'flower no.': 'flower number (plant⁻¹)',
+    'fruit no.': 'fruit number (plant⁻¹)',
+    'leaf no.': 'leaf number (plant⁻¹)',
+    'petiole length mean (cm)': 'petiole length (cm)',
 }
 
 # Marker styles per treatment
@@ -76,12 +76,12 @@ for file_path, variables in input_configs.items():
             elinewidth=1, linewidth=1.5, markersize=6
 )
 
-        plt.xlabel('DAT', fontsize=14)
-        plt.ylabel(label, fontsize=14)
-        #plt.legend(fontsize=12)
-        plt.xticks(grouped['DAT'], fontsize=12)
-        plt.yticks(fontsize=12)
+        plt.xlabel('DAT', fontsize=16)
+        plt.ylabel(label, fontsize=20)
+        plt.legend(fontsize=15, loc='upper left')
+        plt.xticks(grouped['DAT'], fontsize=16)
+        plt.yticks(fontsize=16)
 
         filename = f"{variable.replace(' ', '_').replace('/', '_')}_lineplot.png"
-        plt.savefig(os.path.join(plot_output_dir, filename))
+        plt.savefig(os.path.join(plot_output_dir, filename), dpi=600)
         plt.close()

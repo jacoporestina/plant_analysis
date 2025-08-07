@@ -16,12 +16,12 @@ input_configs = {
     'data/fruit_quality.csv': ['acidity (meq 100gr -1)', 'brix (Bx%)', 'Bx acidity-1'],
     'data/fruit_measurements.csv': ['fruit_weight(g)', 'oidio (g)'],
     'data/firmness.csv': ['firmness (kg)'],
-    'data/plant_yield.csv': ['yield_plant (g)'],
+    'data/plant_yield.csv': ['yield_plant (g)', 'fruit no. plant', 'cumulative_plant_yield (g)', 'cumulative_fruit no' ],
     'data/data per crown.csv': [
         'leaf no.','inflorescence no.', 'fruit no.', 'plant_FW (g)',
         'plant_DW (g)', 'shoots_DW (g)', 'leaf_DW (g)', 'leaf_area (m2)', 'SLA (m2 g-1)'
     ],
-    'data/cumulative_yield.csv': ['plant_yield (g)'],
+    'data/total_yield.csv': ['plant_yield (g)', 'average_fruit_weight (g)', 'fruit no. plant'],
     'data/shelf_life.csv' : ['weight_diff']
 }
 

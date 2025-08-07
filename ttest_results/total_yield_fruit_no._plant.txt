@@ -1,0 +1,19 @@
+T-Test Results for: fruit no. plant
+================================================================================
+
+Date: 16/06/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control            22.9111     1.7595      3
+shaded             20.4778     0.6257      3
+
+T-Test Result:
+t-stat           2.2569
+p-value          0.0870
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Pass (p = 0.2511)
+  Equal Variance (Bartlett): Pass (p = 0.2251)
+================================================================================
+

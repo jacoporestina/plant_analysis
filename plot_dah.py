@@ -7,18 +7,22 @@ input_configs = {
     'data/fruit_quality.csv': ['acidity (meq 100gr -1)', 'brix (Bx°)', 'Bx acidity-1'],
     'data/fruit_measurements.csv': ['fruit_weight(g)', 'oidio (g)'],
     'data/firmness.csv': ['firmness (kg)'],
-    'data/plant_yield.csv': ['yield_plant (g)']
+    'data/plant_yield.csv': ['yield_plant (g)', 'fruit no. plant', 'cumulative_fruit no', 'cumulative_plant_yield (g)'],
 }
 
 # Optional: variable label mapping for prettier y-axis labels
 variable_labels = {
-    'fruit_weight(g)': 'Average fruit weight (g)',
-    'yield_plant (g)': 'g plant⁻¹',
+    'fruit_weight(g)': 'average fruit weight (g)',
+    'yield_plant (g)': 'fruit yield (g plant⁻¹)',
     'acidity (meq 100gr⁻¹)': 'Acidity (meq 100g⁻¹)',
     'brix (Bx%)': 'Brix (Bx°)',
     'Bx acidity-1': 'Brix/Acidity',
     'oidio (g)': 'Oidio (g)',
     'firmness (kg)': 'Firmness (kg)',
+    'fruit no.': 'harvested fruit number',
+    'fruit no. plant': 'harvested fruit number (plant⁻¹)',
+    'cumulative_fruit no': 'cumulative fruit number',
+    'cumulative_plant_yield (g)': 'cumulative fruit yield (g plant⁻¹)',
 }
 
 
@@ -81,12 +85,12 @@ for file_path, variables in input_configs.items():
             elinewidth=1, linewidth=1.5, markersize=6
 )
 
-        plt.xlabel('DAH', fontsize=14)
-        plt.ylabel(label, fontsize=14)
-        #plt.legend(fontsize=12)
-        plt.xticks(grouped['DAH'], fontsize=12)
-        plt.yticks(fontsize=12)
+        plt.xlabel('DAH', fontsize=16)
+        plt.ylabel(label, fontsize=20)
+        plt.legend(fontsize=15)
+        plt.xticks(grouped['DAH'], fontsize=16)
+        plt.yticks(fontsize=16)
 
         filename = f"{variable.replace(' ', '_').replace('/', '_')}_lineplot.png"
-        plt.savefig(os.path.join(plot_output_dir, filename))
+        plt.savefig(os.path.join(plot_output_dir, filename), dpi=600)
         plt.close()

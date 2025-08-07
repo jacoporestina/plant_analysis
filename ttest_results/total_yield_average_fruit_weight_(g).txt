@@ -1,0 +1,19 @@
+T-Test Results for: average_fruit_weight (g)
+================================================================================
+
+Date: 16/06/2025
+--------------------------------------------------------------------------------
+Summary Statistics (Mean ± Std Dev):
+Treatment             Mean    Std Dev      N
+control            16.8352     0.3584      3
+shaded             19.3598     0.8720      3
+
+T-Test Result:
+t-stat          -4.6381
+p-value          0.0097
+
+Assumption Checks:
+  Normality (Shapiro-Wilk): Pass (p = 0.4299)
+  Equal Variance (Bartlett): Pass (p = 0.2884)
+================================================================================
+

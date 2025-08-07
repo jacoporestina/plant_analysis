@@ -1,131 +1,131 @@
-T-Test Results for: fruit_weight(g)
+T-Test Results for: fruit no. plant
 ================================================================================
 
 Date: 23/05/2025
 --------------------------------------------------------------------------------
 Summary Statistics (Mean ± Std Dev):
 Treatment             Mean    Std Dev      N
-control            35.7299    10.6094    117
-shaded             39.1459     9.8215     74
+control             1.3000     0.2603      3
+shaded              0.8222     0.1347      3
 
 T-Test Result:
-t-stat          -2.2303
-p-value          0.0269
+t-stat           2.8231
+p-value          0.0477
 
 Assumption Checks:
-  Normality (Shapiro-Wilk): Fail (p = 0.0274)
-  Equal Variance (Bartlett): Pass (p = 0.4692)
+  Normality (Shapiro-Wilk): Pass (p = 0.2715)
+  Equal Variance (Bartlett): Pass (p = 0.4203)
 ================================================================================
 
 Date: 27/05/2025
 --------------------------------------------------------------------------------
 Summary Statistics (Mean ± Std Dev):
 Treatment             Mean    Std Dev      N
-control            27.1142     9.7994    240
-shaded             32.5281    10.7542    185
+control             2.6667     0.0667      3
+shaded              2.0556     0.3238      3
 
 T-Test Result:
-t-stat          -5.4115
-p-value          0.0000
+t-stat           3.2022
+p-value          0.0328
 
 Assumption Checks:
-  Normality (Shapiro-Wilk): Fail (p = 0.0000)
-  Equal Variance (Bartlett): Pass (p = 0.1791)
+  Normality (Shapiro-Wilk): Pass (p = 0.3802)
+  Equal Variance (Bartlett): Pass (p = 0.0847)
 ================================================================================
 
 Date: 30/05/2025
 --------------------------------------------------------------------------------
 Summary Statistics (Mean ± Std Dev):
 Treatment             Mean    Std Dev      N
-control            18.0072     5.3961    111
-shaded             21.3707     6.7361    116
+control             1.2333     0.3528      3
+shaded              1.2889     0.1262      3
 
 T-Test Result:
-t-stat          -4.1407
-p-value          0.0000
+t-stat          -0.2568
+p-value          0.8100
 
 Assumption Checks:
-  Normality (Shapiro-Wilk): Fail (p = 0.0000)
-  Equal Variance (Bartlett): Fail (p = 0.0196)
+  Normality (Shapiro-Wilk): Pass (p = 0.8677)
+  Equal Variance (Bartlett): Pass (p = 0.2274)
 ================================================================================
 
 Date: 03/06/2025
 --------------------------------------------------------------------------------
 Summary Statistics (Mean ± Std Dev):
 Treatment             Mean    Std Dev      N
-control            13.6418     1.5256     17
-shaded             14.5914     2.0302     21
+control             2.9333     0.2667      3
+shaded              3.5778     0.7066      3
 
 T-Test Result:
-t-stat          -1.5965
-p-value          0.1191
+t-stat          -1.4780
+p-value          0.2135
 
 Assumption Checks:
-  Normality (Shapiro-Wilk): Pass (p = 0.8726)
-  Equal Variance (Bartlett): Pass (p = 0.2428)
+  Normality (Shapiro-Wilk): Pass (p = 0.2629)
+  Equal Variance (Bartlett): Pass (p = 0.2495)
 ================================================================================
 
 Date: 06/06/2025
 --------------------------------------------------------------------------------
 Summary Statistics (Mean ± Std Dev):
 Treatment             Mean    Std Dev      N
-control            13.0076     1.5059     21
-shaded             14.8383     2.4574     12
+control             3.5333     0.9292      3
+shaded              1.8111     0.5699      3
 
 T-Test Result:
-t-stat          -2.6641
-p-value          0.0121
+t-stat           2.7366
+p-value          0.0521
 
 Assumption Checks:
-  Normality (Shapiro-Wilk): Pass (p = 0.2252)
-  Equal Variance (Bartlett): Pass (p = 0.0622)
+  Normality (Shapiro-Wilk): Pass (p = 0.2370)
+  Equal Variance (Bartlett): Pass (p = 0.5441)
 ================================================================================
 
 Date: 10/06/2025
 --------------------------------------------------------------------------------
 Summary Statistics (Mean ± Std Dev):
 Treatment             Mean    Std Dev      N
-control            12.1635     2.1089     26
-shaded             13.4646     2.9142     26
+control             5.8556     0.4073      3
+shaded              5.4333     0.3480      3
 
 T-Test Result:
-t-stat          -1.8444
-p-value          0.0711
+t-stat           1.3650
+p-value          0.2440
 
 Assumption Checks:
-  Normality (Shapiro-Wilk): Pass (p = 0.3364)
-  Equal Variance (Bartlett): Pass (p = 0.1124)
+  Normality (Shapiro-Wilk): Pass (p = 0.6676)
+  Equal Variance (Bartlett): Pass (p = 0.8425)
 ================================================================================
 
 Date: 13/06/2025
 --------------------------------------------------------------------------------
 Summary Statistics (Mean ± Std Dev):
 Treatment             Mean    Std Dev      N
-control             8.4631     2.6811     13
-shaded             10.9388     1.8424     16
+control             3.2111     0.7954      3
+shaded              3.0444     0.9167      3
 
 T-Test Result:
-t-stat          -2.9415
-p-value          0.0066
+t-stat           0.2379
+p-value          0.8237
 
 Assumption Checks:
-  Normality (Shapiro-Wilk): Pass (p = 0.3223)
-  Equal Variance (Bartlett): Pass (p = 0.1777)
+  Normality (Shapiro-Wilk): Pass (p = 0.5505)
+  Equal Variance (Bartlett): Pass (p = 0.8577)
 ================================================================================
 
 Date: 16/06/2025
 --------------------------------------------------------------------------------
 Summary Statistics (Mean ± Std Dev):
 Treatment             Mean    Std Dev      N
-control             6.7850     1.2454     10
-shaded              8.0233     1.9049     12
+control             2.1778     0.2502      3
+shaded              2.4444     0.3717      3
 
 T-Test Result:
-t-stat          -1.7621
-p-value          0.0933
+t-stat          -1.0309
+p-value          0.3608
 
 Assumption Checks:
-  Normality (Shapiro-Wilk): Pass (p = 0.5612)
-  Equal Variance (Bartlett): Pass (p = 0.2046)
+  Normality (Shapiro-Wilk): Pass (p = 0.2753)
+  Equal Variance (Bartlett): Pass (p = 0.6210)
 ================================================================================
 
